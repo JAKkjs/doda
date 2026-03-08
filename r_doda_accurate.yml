@@ -1,0 +1,32 @@
+name: r_doda
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base=4.3.3
+  - bioconductor-deseq2
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-annotationdbi
+  - bioconductor-org.hs.eg.db
+  - bioconductor-biostrings
+  - bioconductor-genomicranges
+  - bioconductor-gsva
+  - r-ggplot2
+  - r-pheatmap
+  - r-ggpubr
+  - r-patchwork
+  - r-tidyverse
+  - r-data.table
+  - r-reshape2
+  - r-devtools
+  - r-biocmanager
+  - r-rmarkdown
+  - r-openxlsx
+  - pip
+  - pyyaml
