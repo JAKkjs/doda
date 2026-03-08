@@ -59,17 +59,6 @@ conda env list
 删除环境
 conda remove -n (环境名) --all
 
-包管理
-        命令	              说明               举例	
-conda install 包名	     安装包（当前环境） conda install numpy
-conda install 包名=版本	  安装指定版本包	 conda install tensorflow=2.6.0
-conda list	         列出当前环境已安装的包	 conda list
-conda search 包名	      搜索可用包版本	conda search pandas
-conda update 包名	       更新某个包	    conda update numpy
-conda update --all	       更新所有包	    conda update --all
-conda remove 包名	       卸载某个包	    conda remove numpy
-
-
 
 # 三、配置R环境(miniconda)
 
@@ -85,21 +74,7 @@ conda install bioconductor-clusterprofiler bioconductor-org.hs.eg.db -y
 
 conda install bioconductor-gseabase bioconductor-gsva -y
 
-# 四、目前目录结构
-
-doda/
-├── run_deg.sh               # 差异分析入口脚本
-├── ....sh                   # 其他分析
-├── Rscripts/                # 内部 R 脚本逻辑 (无需调用)
-├── uploads/                 # 用户上传区 (按 userId 分区)
-│   └── {userId}/            
-│       ├── data.csv
-│       └── group.csv
-└── results/                 # 结果输出区
-    └── {userId}/{taskID}/   
-        ├── analysis.log     # 运行日志 (分析出错可查阅)
-        ├── result.csv       # 数据结果
-        └── plot.png         # 导出的图表
+# 四、其他
 
 ## 分析测试命令（test_group是test_real_data的分组表，这俩是一组；test_matrix是另一个测试数据）
 ## DEG吃前者，cibersort和immune_checkpoint吃后者，GSVA和estimate两者都能分析
