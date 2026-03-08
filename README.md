@@ -101,8 +101,8 @@ doda/
         ├── result.csv       # 数据结果
         └── plot.png         # 导出的图表
 
-# 分析测试命令（test_group是test_real_data的分组表，这俩是一组；test_matrix是另一个测试数据）
-# DEG吃前者，cibersort和immune_checkpoint吃后者，GSVA和estimate两者都能分析
+## 分析测试命令（test_group是test_real_data的分组表，这俩是一组；test_matrix是另一个测试数据）
+## DEG吃前者，cibersort和immune_checkpoint吃后者，GSVA和estimate两者都能分析
 
 1.DEG
 bash run_deg.sh 01 test_data/test_real_data.csv
@@ -121,7 +121,7 @@ bash run_ICG.sh 03 test_data/test_matrix.csv
 5.cibersort
 bash run_cibersort.sh 03 test_data/test_matrix.csv
 
-# 给脚本加执行权限（个人本地测试可忽略）
+## 给脚本加执行权限（个人本地测试可忽略）
 
 先进入doda目录
 
