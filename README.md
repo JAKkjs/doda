@@ -74,10 +74,10 @@ conda install bioconductor-clusterprofiler bioconductor-org.hs.eg.db -y
 
 conda install bioconductor-gseabase bioconductor-gsva -y
 
-# 四、其他
+# 四、运行分析
 
 ## 分析测试命令（test_group是test_real_data的分组表，这俩是一组；test_matrix是另一个测试数据）
-## DEG吃前者，cibersort和immune_checkpoint吃后者，GSVA和estimate两者都能分析
+### DEG吃前者，cibersort和immune_checkpoint吃后者，GSVA和estimate两者都能分析
 
 ### 1.DEG
 bash run_deg.sh 01 test_data/test_real_data.csv
