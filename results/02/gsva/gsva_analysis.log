@@ -1,0 +1,27 @@
+
+
+>>> 使用 GMT 文件: /home/jakt/doda/Rscripts/c2.cp.kegg.v2023.1.Hs.symbols.gmt
+>>> [1/4] 读取表达矩阵...
+>>> 检测到 Ensembl ID，转换为 Gene Symbol...
+'select()' returned 1:many mapping between keys and columns
+>>> 转换完成，剩余基因数: 36816
+Warning message:
+In bitr(ensembl_ids, fromType = "ENSEMBL", toType = "SYMBOL", OrgDb = org.Hs.eg.db) :
+  40.23% of input gene IDs are fail to map...
+>>> [2/4] 运行 GSVA...
+No annotation package name available in the input data object.
+Attempting to directly match identifiers in data to gene sets.
+Warning messages:
+1: In .filterFeatures_newAPI(dataMatrix) :
+  9001 rows with constant values throughout the samples.
+2: In .filterFeatures_newAPI(dataMatrix) :
+  Rows with constant values are discarded.
+>>> GSVA 得分已保存: gsva_scores.csv
+>>> [3/4] 识别分组...
+>>> [4/4] 通路差异与绘图...
+>>> 通路差异结果已保存: gsva_diff_all.csv, gsva_diff_sig.csv
+>>> 发散条形图已保存: gsva_barplot.png
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+>>> GSVA 分析完成。

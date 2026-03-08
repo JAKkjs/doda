@@ -1,0 +1,13 @@
+[1] "正在处理表达矩阵: test_data/test_real_data.csv"
+[1] "检测到样本数: 10"
+[1] "检测到分组文件，正在读取: test_data/test_group.csv"
+[1] "已设置参考组为: Normal"
+[1] "分组统计:"
+final_group
+Normal  Tumor 
+     5      5 
+[1] "正在进行对比: Tumor - Normal"
+[1] "结果已保存: /home/jakt/doda/results/02/deg/diff_result.csv"
+[1] "正在绘制火山图..."
+[1] "火山图已保存: /home/jakt/doda/results/02/deg/volcano_plot.png"
+[1] "分析完成。"

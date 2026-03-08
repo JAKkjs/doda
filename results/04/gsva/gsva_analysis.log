@@ -1,0 +1,19 @@
+
+
+>>> 使用 GMT 文件: /home/jakt/doda/Rscripts/c2.cp.kegg.v2023.1.Hs.symbols.gmt
+>>> [1/4] 读取表达矩阵...
+>>> 检测到原始 ID 重复，已按平均合并。
+>>> [2/4] 运行 GSVA...
+No annotation package name available in the input data object.
+Attempting to directly match identifiers in data to gene sets.
+Warning messages:
+1: In .filterFeatures_newAPI(dataMatrix) :
+  7483 rows with constant values throughout the samples.
+2: In .filterFeatures_newAPI(dataMatrix) :
+  Rows with constant values are discarded.
+>>> GSVA 得分已保存: gsva_scores.csv
+>>> [3/4] 识别分组...
+>>> 分组文件与样本未完全匹配，跳过分组差异与图。
+>>> [4/4] 通路差异与绘图...
+>>> 热图已保存: gsva_heatmap.pdf
+>>> GSVA 分析完成。
