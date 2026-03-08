@@ -22,6 +22,9 @@ source ~/.bashrc
 
 命令行前出现(base)则成功
 
+# 在doda目录下输入以下命令一键安装，可以不用手动安装直接跳到四
+
+conda env create -f r_doda.yml
 
 ## 4.配置国内镜像（四行命令）
 
